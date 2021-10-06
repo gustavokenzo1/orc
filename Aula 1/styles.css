@@ -1,0 +1,46 @@
+body {
+    background-color: lightgreen;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    color: green;
+    font-size: 25pt;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.logo {
+    height: 200px;
+}
+
+.formulario {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.description {
+    color: green;
+    font-size: 15pt;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.text {
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    height: 25px;
+}
+
+.button {
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    height: 30px;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
